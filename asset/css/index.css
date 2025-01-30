@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'YuMincho'; 
+  src: url('../font/yumin.ttf') format('truetype');  
+  font-weight: normal; 
+  font-style: normal;  
+}
+
+@font-face {
+  font-family: 'YuGothic'; 
+  src: url('../font/yu-gothic-regular.eot'),
+       url('../font/yu-gothic-regular.woff2') format('woff2'), 
+       url('../font/yu-gothic-regular.woff') format('woff'); 
+  font-weight: normal; 
+  font-style: normal;  
+}
+
+@font-face {
+  font-family: 'Didot'; 
+  src: url('../font/Didot.otf') format('truetype');  
+  font-weight: normal; 
+  font-style: normal;  
+}
+
+@font-face {
+  font-family: 'YuGothic Bold'; 
+  src: url('../font/yu-gothic-bold.ttf') format('truetype');  
+  font-weight: normal; 
+  font-style: normal;  
+}
+
+@font-face {
+  font-family: 'Snell Roundhand'; 
+  src: url('../font/unicode.snell.ttf') format('truetype');  
+  font-weight: normal; 
+  font-style: normal;  
+}
+
+@font-face {
+  font-family: 'Meie Script'; 
+  src: url('../font/MeieScript-Regular.ttf') format('truetype');  
+  font-weight: normal; 
+  font-style: normal;  
+}
+
+@font-face {
+  font-family: 'Roboto Bold'; 
+  src: url('../font/Roboto-Bold.ttf') format('truetype');  
+  font-weight: normal; 
+  font-style: normal;  
+}
+
+*,
+body,
+html {
+  box-sizing: border-box;
+  font-family: "YuMincho", sans-serif;
+  margin: 0;
+  transition: 1.5s;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+body,
+html {
+  background-color: #030301;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #262626;
+}
+
+.didot {
+  font-family: "didot", sans-serif;
+}
+
+.yu-gothic {
+  font-family: "YuGothic", sans-serif;
+}
+
+.yu-gothic-b {
+  font-family: "YuGothic Bold", sans-serif;
+}
+
+.snell {
+  font-family: "Snell Roundhand", sans-serif;
+}
+
+.meie {
+  font-family: "Meie Script", sans-serif;
+}
+
+.roboto-b {
+  font-family: "Roboto Bold", sans-serif;
+}
+
+@media(min-width: 768px) {
+  .w-mode {
+    writing-mode: vertical-lr;
+  }
+}
