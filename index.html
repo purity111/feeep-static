@@ -10,9 +10,10 @@
 </head>
 
 <body>
-  <header class="z-50 fixed w-full">
+  <header class="z-50 fixed transition-opacity duration-300 w-full" id="header">
     <a href="#">
       <img src="./asset/img/logo.png" alt="logo" class="m-auto w-[115px] lg:w-[300px] mt-[20px] lg:mt-[50px]" />
+      <h5 class="text-[12px] lg:text-[21px] text-center pt-[3px] lg:pt-[6px]">フィープリゾート</h5>
     </a>
   </header>
   <main>
@@ -25,13 +26,13 @@
         オーナーに
       </h1>
       <div class="absolute bottom-[77px] lg:bottom-[63px] left-[50%] transform -translate-x-1/2">
-        <a href="">
+        <a href="#concept">
           <p class="didot italic text-[24px] lg:text-[38px]">scroll</p>
           <img src="./asset/img/tobottom.png" alt="tobottom" class="m-auto h-[11px] lg:h-[25px]" />
         </a>
       </div>
     </section>
-    <section class="concept">
+    <section class="concept" id="concept">
       <div class="relative">
         <img src="./asset/img/fire-sp.png" alt="fire" class="w-full lg:hidden" />
         <img src="./asset/img/fire.png" alt="fire" class="w-full hidden lg:block" />
@@ -41,7 +42,7 @@
           Resort!!
         </h3>
         <p
-          class="text-[15px] lg:text-[19px] pb-[70px] lg:pb-0 lg:pt-[15px] pl-[12px] lg:pl-0 lg:w-[970px] m-auto absolute lg:left-[474px] lg:top-[10px]">
+          class="text-[15px] lg:text-[19px] pb-[70px] lg:pb-0 lg:pt-[15px] pl-[12px] lg:pl-0 lg:w-[90%] max-lg:w-[970px] m-auto absolute lg:left-[10%] max-lg:left-[474px] lg:top-[10px]">
           FEEEP RESORTは、1口30万円から、<br />
           全国47都道府県の別荘オーナーになることが<br class="lg:hidden" />
           できる<br class="hidden lg:block" />新しい『シェア別荘サービス』です。<br /><br />
@@ -62,7 +63,7 @@
       <div class="relative">
         <img src="./asset/img/concept-sp.png" alt="concept" class="w-full lg:hidden" />
         <img src="./asset/img/concept.webp" alt="concept" class="w-full hidden lg:block" />
-        <div class="absolute left-[25px] top-[105px] lg:top-[165px] flex lg:left-[474px]">
+        <div class="absolute left-[25px] top-[105px] lg:top-[165px] flex lg:left-[10%] max-lg:left-[474px]">
           <div class="w-[10px] lg:w-[18px] h-[68px] lg:h-[118px] bg-white mr-[17px] lg:mr-[30px]"></div>
           <div>
             <h2 class="didot italic text-[54px] lg:text-[93px] pb-[10px] lg:pb-[20px] leading-[0.8]">
@@ -110,7 +111,7 @@
       <img src="./asset/img/bg-bulk.png" class="w-full lg:w-[1170px] lg:pr-[35px] m-auto mt-[60px] lg:mt-[120px]"
         alt="bulk" />
     </section>
-    <section class="feature relative">
+    <!-- <section class="feature relative">
       <div class="lg:w-[970px] pl-[25px] lg:pl-0 flex m-auto pl-[l5px] lg:pl-0 pt-[66px] pb-[56px] lg:pb-[46px]">
         <div class="w-[10px] lg:w-[18px] h-[68px] lg:h-[118px] bg-white mr-[17px] lg:mr-[30px]"></div>
         <div>
@@ -220,8 +221,8 @@
           </div>
         </div>
       </div>
-    </section>
-    <section class="place mt-[87px] lg:mt-[800px]">
+    </section> -->
+    <!-- <section class="place mt-[87px] lg:mt-[800px]">
       <div class="relative">
         <img src="./asset/img/location-sp.png" alt="location" class="lg:hidden">
         <img src="./asset/img/location.webp" alt="location" class="hidden lg:block absolute top-0">
@@ -287,8 +288,8 @@
           追加のお金を心配することなく、1口30万円から、別荘オーナーになりませんか？
         </p>
       </div>
-    </section>
-    <section class="ticekt relative mt-[35px] lg:mt-[220px]">
+    </section> -->
+    <!-- <section class="ticekt relative mt-[35px] lg:mt-[220px]">
       <img src="./asset/img/line-bg-sp.webp" alt="line-bg" class="lg:hidden">
       <img src="./asset/img/line-bg.webp" alt="line-bg" class="hidden lg:block">
       <div class="flex flex-col items-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full">
@@ -298,14 +299,14 @@
             今後の動向は、<br class="lg:hidden">ぜひ公式LINEからチェックしてください。
         </p>
         <div class="mx-[15px] bg-white pl-[30px] lg:pl-[205px] pr-[10px] lg:pr-[40px] py-[15px] lg:py-[20px] flex justify-between items-center rounded-[8px] lg:rounded-[12px] lg:w-[882px] lg:mx-0">
-          <div class="flex gap-[20px] items-center">
+          <a class="flex gap-[20px] items-center cursor-pointer">
             <img src="./asset/img/line-icon.png" alt="line-icon" class="w-[35px] lg:w-[55px]">
             <h5 class="text-[#220C18] text-[23px] lg:text-[36px] font-semibold yu-gothic-b">公式LINEはこちら</h5>
-          </div>
+          </a>
           <img src="./asset/img/toLine.png" alt="toLine" class="h-[22px]">
         </div>
     </div>
-    </section>
+    </section> -->
     <footer class="py-[120px] lg:py-[180px]">
       <h3 class="text-center text-[36px] lg:text-[48px] roboto-b">フッター</h3>
     </footer>
