@@ -104,3 +104,14 @@ a {
     writing-mode: vertical-lr;
   }
 }
+
+.modal {
+  display: none; 
+  justify-content: center;
+  align-items: center;
+  z-index: 50;
+}
+
+.hidd {
+  display: none !important; 
+}
